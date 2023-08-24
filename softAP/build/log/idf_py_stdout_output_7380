@@ -1,0 +1,32 @@
+[1/11] Linking C static library esp-idf/wifi_provisioning/libwifi_provisioning.a
+[2/11] Performing build step for 'bootloader'
+[1/1] cd /home/cisco/vivenciando/softAP/build/bootloader/esp-idf/esptool_py && /home/cisco/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/cisco/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/cisco/vivenciando/softAP/build/bootloader/bootloader.bin
+Bootloader binary size 0x68d0 bytes. 0x730 bytes (6%) free.
+[3/11] No install step for 'bootloader'
+[4/11] Completed 'bootloader'
+[5/11] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/softap_example_main.c.obj
+/home/cisco/vivenciando/softAP/main/softap_example_main.c: In function 'wifi_init_softap':
+/home/cisco/vivenciando/softAP/main/softap_example_main.c:26:24: warning: initializer-string for array of 'unsigned char' is too long
+   26 | #define WIFI_SSID      "Vivenciando - Wifi & Telecomunicacoes"
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/cisco/vivenciando/softAP/main/softap_example_main.c:26:24: note: in definition of macro 'WIFI_SSID'
+   26 | #define WIFI_SSID      "Vivenciando - Wifi & Telecomunicacoes"
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/cisco/vivenciando/softAP/main/softap_example_main.c:26:24: note: (near initialization for 'wifi_config.ap.ssid')
+   26 | #define WIFI_SSID      "Vivenciando - Wifi & Telecomunicacoes"
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/cisco/vivenciando/softAP/main/softap_example_main.c:26:24: note: in definition of macro 'WIFI_SSID'
+   26 | #define WIFI_SSID      "Vivenciando - Wifi & Telecomunicacoes"
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[6/11] Linking C static library esp-idf/main/libmain.a
+[7/11] Generating ld/sections.ld
+[8/11] Building C object CMakeFiles/wifi_softAP.elf.dir/project_elf_src_esp32.c.obj
+[9/11] Linking CXX executable wifi_softAP.elf
+[10/11] Generating binary image from built executable
+esptool.py v4.7.dev1
+Creating esp32 image...
+Merged 26 ELF sections
+Successfully created esp32 image.
+Generated /home/cisco/vivenciando/softAP/build/wifi_softAP.bin
+[11/11] cd /home/cisco/vivenciando/softAP/build/esp-idf/esptool_py && /home/cisco/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/cisco/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/cisco/vivenciando/softAP/build/partition_table/partition-table.bin /home/cisco/vivenciando/softAP/build/wifi_softAP.bin
+wifi_softAP.bin binary size 0xb8d10 bytes. Smallest app partition is 0x100000 bytes. 0x472f0 bytes (28%) free.

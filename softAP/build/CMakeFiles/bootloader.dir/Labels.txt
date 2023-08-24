@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/cisco/vivenciando/softAP/build/CMakeFiles/bootloader
+/home/cisco/vivenciando/softAP/build/CMakeFiles/bootloader.rule
+/home/cisco/vivenciando/softAP/build/CMakeFiles/bootloader-complete.rule
+/home/cisco/vivenciando/softAP/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/cisco/vivenciando/softAP/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/cisco/vivenciando/softAP/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/cisco/vivenciando/softAP/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/cisco/vivenciando/softAP/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/cisco/vivenciando/softAP/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/cisco/vivenciando/softAP/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
